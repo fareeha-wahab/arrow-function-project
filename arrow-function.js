@@ -1,4 +1,4 @@
-function countVowels(str) {
+const countVowelsArrow = (str) => {
   let vowels = "aeiouAEIOU";
   let count = 0;
 
@@ -9,7 +9,8 @@ function countVowels(str) {
   }
 
   return count;
-}
+};
 
 // Example
-console.log(countVowels("hello"));  // Output: 2
+console.log(countVowelsArrow("javascript"));  // Output: 3
+
